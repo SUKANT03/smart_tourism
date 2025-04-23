@@ -1,0 +1,73 @@
+.App{
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+  }
+  
+.page{
+    display: flex;
+    background-color: rgb(0, 0, 0); 
+     justify-content:left ;
+     align-items: center;
+     height: 100vh;
+     background: rgb(0,0,0);
+     background: linear-gradient(315deg, rgb(46, 0, 82) 0%, rgba(123,0,255,1) 100%);
+
+    } 
+.vid{
+  width: 90%;
+  height: 84%;
+  margin-left: 5%;
+  border: 2px solid rgba(123, 0, 255, 0);
+  background: linear-gradient(135deg, rgba(255, 0, 0, 0) rgba(255, 0, 217, 0) 100%);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+video{
+  height: 595px;
+  /* width: 800px; */
+  margin-top: 33px;
+}
+.cont{
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 25%;
+    border: 5px;
+    border-color: rgb(255, 0, 0);
+    align-self: center;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+    margin-left: 1%;
+    height: 90%;
+    border-width: 5px;
+    background-color: #ffffff;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    inset: 4px;
+}
+.butt{
+    padding-top: 5px;
+    margin-left: 10%;
+    text-align: center;
+    color: rgb(0, 47, 255);
+}
+.sub{
+  margin-left: 22%;
+  width: 50%;
+  border-radius: 5px;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(179, 0, 255);
+  font-weight: bold;
+  align-self: center;
+}
+.sub:hover{
+  background-color: rgb(4, 0, 255);
+}
